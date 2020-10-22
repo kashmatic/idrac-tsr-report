@@ -1,4 +1,4 @@
-## betl_tsr
+# idrac-tsr-report
 
 Usage
 ```
@@ -28,7 +28,7 @@ export IDRAC_PASSWORD=
 export NFS_HOST=
 export NFS_PATH=
 export KB_ID=
-export API=
+export NOTIFY_API=
 ```
 
 Create docker image
@@ -46,4 +46,3 @@ docker run \
 -e KB_ID=100 \
 tsr:1.0.0
 ```
-# idrac-tsr-report
